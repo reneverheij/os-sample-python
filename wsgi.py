@@ -10,7 +10,7 @@ def ready():
     return "I am ready!\n"
 
 @application.route("/health")
-def ready():
+def health():
     return "I am healthy!\n"
 
 if __name__ == "__main__":
